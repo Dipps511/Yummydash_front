@@ -41,7 +41,7 @@ jobs:
       matrix:
         node-version: [14.x]
     env:
-      RUNNER_LABEL: dev-runner
+      RUNNER_LABEL: prod2
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
